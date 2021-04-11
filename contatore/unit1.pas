@@ -5,7 +5,7 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Dialogs, StdCtrls;
+  Classes, SysUtils, Forms, Controls, StdCtrls;
 
 type
 
