@@ -10,6 +10,11 @@ Esempi di [7GUIs](https://eugenkiss.github.io/7guis/tasks) realizzati con [Lazar
 
 ![anteprima](convertitore/anteprima.gif)
 
+## Prenotatore di Voli
+
+![anteprima](prenotatore/anteprima.gif)
+
 ## Temporizzatore
 
 ![anteprima](temporizzatore/anteprima.gif)
+

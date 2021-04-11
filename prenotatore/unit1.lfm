@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 579
+  Height = 137
+  Top = 140
+  Width = 153
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Prenotatore di Voli'
+  ClientHeight = 137
+  ClientWidth = 153
+  Position = poScreenCenter
+  LCLVersion = '2.0.8.0'
+  object ComboBox1: TComboBox
+    Left = 8
+    Height = 23
+    Top = 8
+    Width = 140
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'volo di sola andata'
+      'volo di ritorno'
+    )
+    OnChange = ComboBox1Change
+    ParentShowHint = False
+    Style = csDropDownList
+    TabOrder = 0
+    Text = 'volo di sola andata'
+  end
+  object Button1: TButton
+    Left = 9
+    Height = 25
+    Top = 104
+    Width = 140
+    Caption = '&Prenotare'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 40
+    Width = 140
+    OnChange = Edit1Change
+    TabOrder = 2
+    Text = '27.03.2014'
+  end
+  object Edit2: TEdit
+    Left = 9
+    Height = 23
+    Top = 72
+    Width = 140
+    Enabled = False
+    OnChange = Edit2Change
+    TabOrder = 3
+    Text = '27.03.2014'
+  end
+end
