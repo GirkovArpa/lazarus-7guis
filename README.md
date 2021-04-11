@@ -9,3 +9,7 @@ Esempi di [7GUIs](https://eugenkiss.github.io/7guis/tasks) realizzati con [Lazar
 ## Convertitore di Temperatura
 
 ![anteprima](convertitore/anteprima.gif)
+
+## Temporizzatore
+
+![anteprima](temporizzatore/anteprima.gif)
